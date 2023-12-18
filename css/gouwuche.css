@@ -1,0 +1,184 @@
+.bnav>ul li:nth-child(4) p>a{
+    color: #c00;
+  }
+
+
+
+.di{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+ 
+  padding: 2%;
+}
+.dizhi{
+ margin-left: 2.5%;
+ color: #999;
+}
+.dizhi span{
+  font-size: 0.8rem;
+
+}
+.biji{
+ margin-right: 3%;
+ color: #000;
+ font-size: 0.8rem;
+}
+
+
+.go{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 10px;
+}
+.wu{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 10%;
+
+}
+.wu h3{
+  font-size: 1rem;
+}
+.wu svg{
+  margin-top: 1.5%;
+}
+.che{
+  display: flex;
+  flex-direction: row;
+  padding: 5% 0;
+  margin-left: 10%;
+  position: relative;
+}
+.che img{
+  width: 30%;
+  border-radius: 10px;
+}
+.che h5{
+  margin-left: 3%;
+}
+.che span{
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  font-size: 1rem;
+  color: #c00;
+  margin-left: 3%;
+}
+
+.shuipingxian{
+display: flex;
+justify-content: center;
+font-weight: 1000;
+position: relative;
+margin-top: 2%;
+}
+.shuipingxian>span{
+font-size: 14px;
+color: #999;
+margin: auto;
+padding-top: 5px;
+}
+.zuo{
+border-bottom: 1.5px solid #ccc;
+width: 35%;
+position: absolute;
+left: 0;
+top: 58%;
+} 
+.zuo>div{
+width: 5px;
+height: 5px;
+background-color: #ccc;
+transform: rotate(45deg);
+position: absolute;
+right: 0;
+top: -2px;
+}
+.you{
+border-bottom: 1.5px solid #ccc;
+width: 35%;
+position: absolute;
+right: 0;
+top: 58%;
+}
+.you>div{
+width: 5px;
+height: 5px;
+background-color: #ccc;
+transform: rotate(45deg);
+position: absolute;
+left: 0;
+top: -2px;
+}
+
+
+
+
+.shang{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transform: translateX(10px);
+}
+.tu{
+
+  width: 45%; 
+  margin-right:5% ; 
+  box-sizing: border-box; 
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+
+
+   
+
+}
+.tu img{
+  width: 100%; 
+   margin: 0; 
+   border-radius: 10px 10px 0 0;
+}
+.kuai
+{
+width: 100%;
+background-color: #fff;
+
+margin-bottom: 0.5%;
+border-radius: 0 0 10px 10px;
+
+}
+.kuai h3{
+font-size: 14px;
+text-align: center;
+letter-spacing: 8px;
+
+}
+.one{
+color: #c00;
+font-size: 18px;
+
+}
+.two{
+font-size: 14px;
+color: #ccc;
+}
+
+#totalPrice
+{
+  background-color: #fff;
+  z-index: 9;
+  position: fixed;
+  width: 100%;
+  color: #c00;
+  bottom: 6.25%;
+  padding: 5%;
+
+}

@@ -1,0 +1,566 @@
+.bnav>ul li:nth-child(1) p>a {
+    color: #c00;
+  }
+  
+      .shangxiagundong{
+        height: 20px;
+        font-size: 16px;
+        color: #000;
+        text-align: center;
+        overflow: hidden;
+        position: absolute;
+        left: 1%;
+    
+      }
+  
+  
+      .tab {
+      
+     margin: auto;
+  
+  
+  }
+  
+  .t-title {
+    height: 4%;
+          width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+  }
+  
+  .t-title span {
+    margin-left: 5px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  
+  .tc {
+  
+    border-top: none;
+  
+    text-align: center;
+  
+    display: none;
+  
+  
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .t-title .cur {
+  
+    margin-bottom: -1px;
+    background-color: #fff;
+    color: #c00;
+    font-weight: bold;
+  }
+  .ling{
+      width: 100%;
+          display: flex;
+          justify-content: center;
+     
+      }
+  .ling li{
+    width: 100px;
+    margin-top: 12%;
+    background-color: #eee;
+    margin-bottom: 2%;
+    
+  }
+      .ling img{
+          width: 50%;
+          padding-left: 25%;
+      }
+      .ling p{
+          font-size: 14px;
+          color: #000;
+          text-align: center;
+      }
+  
+  
+  .xue{
+          display: flex;
+          justify-content: center;
+          padding: 5%;
+          background-image: linear-gradient(90deg,#FEE0DE,#FEF2F1,#fff,#fff,#fff,#fff,#fff);
+          border-radius: 10px;
+          margin: 0 2.5%;
+      }
+      .xiao {
+        line-height: 20%;
+        padding-left: 5%;
+        position: relative;
+      }
+      .xiao img{
+          width: 100%;
+          margin-bottom: 30%;
+    
+      }
+      .xiao p{
+          font-size: 14px;
+          color: #c00;
+          text-align: center;
+  
+      }
+   
+      .xiao:nth-child(1)>img{
+          width: 150%;
+          margin-left: -50%;
+          margin-bottom: 5%;
+          margin-top: 20%;
+      }
+  
+      .xiao:nth-child(1)>p{
+          font-size: 12px;
+        color: #999;
+        text-align: center;
+        width: 180%;
+        position: absolute;
+        left: -50%;
+        bottom: 1%;
+      }
+  
+  
+  
+  .shi{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+    align-items: flex-start;
+      
+      }
+      .shi div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+  
+  
+  
+      }
+      .shi img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .shi span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+    
+         
+      }
+   
+  
+  .nei{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+       
+    
+      
+      }
+      .nei div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+  
+  
+  
+      }
+      .nei img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .nei span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+    
+         
+      }
+  
+  
+      .sheng{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+       
+    
+      
+      }
+      .sheng div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+  
+  
+  
+      }
+      .sheng img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .sheng span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+    
+         
+      }
+  
+  
+  
+  
+  
+      .ge{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .ge div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+  
+  
+  
+      }
+      .ge img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .ge span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+      }
+  
+  
+  
+  
+  
+  
+      .nv{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .nv div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+  
+  
+  
+      }
+      .nv img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .nv span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+    
+         
+      }
+  
+  
+  
+  
+  
+      .jia{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .jia div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+  
+  
+  
+      }
+      .jia img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .jia span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+    
+         
+      }
+  
+  
+  
+  
+  
+      .shu{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .shu div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+  
+  
+  
+      }
+      .shu img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .shu span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+    
+         
+      }
+  
+  
+  
+  
+  
+      
+      .yun{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .yun div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+  
+  
+  
+      }
+      .yun img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .yun span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+      }
+  
+  
+  
+  
+  
+      .bai{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .bai div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+      }
+      .bai img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .bai span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+      }
+  
+  
+  
+  
+  
+      .tushu{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .tushu div{
+       width: 20%;
+       background-color: #fff;
+   padding-top: 8%;
+      }
+      .tushu img{
+          width: 100%;
+          margin-left: 5%;
+          margin-top: 20%;
+  
+      }
+      .tushu span{
+          text-align: center;
+          color: #000;
+          font-size: 14px;
+          margin-left: 22%;
+      }
+      .tushu div:nth-child(9)>img{
+       height: 49.5%;
+      }
+      .tushu div:nth-child(10)>img{
+       height: 49.5%;
+      }
+  
+  
+  
+  
+      .shang{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          transform: translateX(10px);
+      }
+      .tu{
+    
+          width: 45%; 
+          margin-right:5% ; 
+          box-sizing: border-box; 
+          margin-bottom: 2.5%;
+          margin-top: 2.5%;
+    
+  
+           
+        
+      }
+      .tu img{
+          width: 100%; 
+           margin: 0; 
+           border-radius: 10px 10px 0 0;
+      }
+     .kuai
+     {
+      width: 100%;
+      background-color: #fff;
+   
+      margin-bottom: 0.5%;
+      border-radius: 0 0 10px 10px;
+  
+     }
+     .kuai h3{
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: 8px;
+  
+     }
+     .one{
+      color: #c00;
+      font-size: 18px;
+      margin-left: -75%;
+  
+     }
+     .two{
+       font-size: 14px;
+      color: #ccc;
+      margin-left: -60%;
+     }
+  
+  
+  
+  
+     .ben{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          transform: translateX(10px);
+      }
+      .neb{
+    
+          width: 45%; 
+          margin-right:5% ; 
+          box-sizing: border-box; 
+          margin-bottom: 2.5%;
+          margin-top: 2.5%;
+    
+  
+           
+        
+      }
+      .neb img{
+          width: 100%; 
+           margin: 0; 
+           border-radius: 10px 10px 0 0;
+      }
+     .uai
+     {
+      width: 100%;
+      background-color: #fff;
+   
+      margin-bottom: 0.5%;
+      border-radius: 0 0 10px 10px;
+     position: relative;
+     padding: 20% 0;
+     }
+     .uai h5{
+      font-size: 0.65rem;
+      text-align: center;
+      letter-spacing: 8px;
+      position: absolute;
+      top: 10%;
+      left: 10%;
+  
+     }
+     .three{
+      color: #c00;
+      font-size: 0.8rem;
+      width: 30%;
+     position: absolute;
+     left: 0;
+     }
+     .four{
+       font-size: 0.65rem;
+      color: #ccc;
+      width: 50%;
+      position: absolute;
+      right: 0;
+      top: 51.5%;
+     }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/quanju.css">
+    <link rel="stylesheet" href="./css/xiadaohang.css">
+    <script src="./fronts/font_4297313_lqmy7dmpm1/iconfont.js"></script>
+    <script src="./fronts/购物车/iconfont.js"></script>
+    <link rel="stylesheet" href="./css/jishuqi.css">
+    <link rel="stylesheet" href="./css/jishuqi2.css">
+    <link rel="stylesheet" href="./css/gouwuche.css">
+</head>
+<body>
+      <!-- 地址头部 -->
+    <div class="di">
+      <span class="dizhi">
+          <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-dizhi"></use>
+        </svg>
+        <span>大连市甘井子区</span>
+      </span>
+      <span class="biji">编辑商品</span>
+  </div>
+  
+
+
+  <!-- 购物车内容 -->
+
+  <div class="go">
+      <div class="wu">
+         <svg class="icon" aria-hidden="true">
+             <use xlink:href="#icon-dianpu"></use>
+           </svg>
+         <h3>威鲆家庭清洁专营店</h3>
+         <svg class="icon" aria-hidden="true">
+             <use xlink:href="#icon-dayuhao"></use>
+           </svg>
+      </div>
+       <div class="che">
+         <img src="./images/购物车/舒可乐卫生纸.JPG">
+          <h5>舒可乐卫生纸</h5>
+           <span>￥0.42</span>
+           <div id="jishuqi">
+              <button id="minus">-</button>
+              <input id="num" name="num" type="text" size="3" value=0 disabled>
+              <button id="add">+</button>
+          </div>
+       </div>
+    </div>
+     
+    <div class="go">
+      <div class="wu">
+         <svg class="icon" aria-hidden="true">
+             <use xlink:href="#icon-dianpu"></use>
+           </svg>
+         <h3>焗谭昂克专卖店</h3>
+         <svg class="icon" aria-hidden="true">
+             <use xlink:href="#icon-dayuhao"></use>
+           </svg>
+      </div>
+       <div class="che">
+         <img src="./images/购物车/室内家具防滑拖鞋.JPG">
+          <h5>室内家具防滑拖鞋</h5>
+           <span>￥9.90</span>
+           <div id="jishuqi2">
+              <button id="minus2">-</button>
+              <input id="num2" name="num2" type="text" size="3" value=0 disabled>
+              <button id="add2">+</button>
+          </div>
+       </div>
+    </div>
+  
+
+
+    <script src="./js/gouwuche.js"></script> 
+    
+     <!-- 可能你还想要 -->
+   <ul class="shuipingxian">
+    <li class="zuo"><div></div></li>
+    <span>可能你还想要</span>
+    <li class="you"><div></div></li>
+   </ul>
+      
+  <!-- json解析 -->
+  <ul class="shang"></ul>
+  <script src="./js/rap2gouwuche.js"></script>
+
+<div id="totalPrice"></div>
+
+  <!-- 下导航 -->
+  <div class="bnav">
+    <ul>
+   <li>
+    <div>
+      <a href="./shouye.html">
+     <svg class="icon" aria-hidden="true">
+       <use xlink:href="#icon-shouye1"></use>
+     </svg>
+    </a>
+          <p>
+           <a href="./shouye.html">首页</a>
+          </p> 
+    </div>           
+   </li>
+
+   <li>
+       <div>
+         <a href="./fenlei.html">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-fenlei1"></use>
+        </svg>
+         </a>
+             <p>
+              <a href="./fenlei.html">分类</a>
+             </p> 
+       </div>           
+      </li>
+
+      <li>
+       <div>
+        <a href="./tejiatuan.html">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-icon_flashbuy"></use>
+        </svg>
+      </a>
+             <p>
+              <a href="./tejiatuan.html">特价团</a>
+             </p> 
+       </div>           
+      </li>
+
+      <li>
+       <div>
+        <a href="./gouwuche.html">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-gouwuche"></use>
+        </svg>
+      </a>
+             <p>
+              <a href="./gouwuche.html">购物车</a>
+             </p> 
+       </div>           
+      </li>
+
+      <li>
+       <div>
+        <a href="./wode.html">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-wode"></use>
+        </svg>
+      </a>
+             <p>
+              <a href="./wode.html">我的</a>
+             </p> 
+       </div>           
+      </li>
+   </ul>
+   </div>
+</body>
+</html>

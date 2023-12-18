@@ -1,0 +1,45 @@
+
+ /* 下导航 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+ .bnav{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9;
+ 
+
+ }
+ body{
+  margin-bottom: 50px;
+ }
+ .bnav ul{
+  display: flex;
+ }
+ .bnav li{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+ }
+ .bnav div{
+  text-align: center;
+
+
+ }
+ .bnav svg{
+  font-size: 25px;
+ }
+ .bnav p{
+  font-size: 14px;
+  line-height: 24px;
+ }
+ .bnav a{
+  color: #333;
+ }

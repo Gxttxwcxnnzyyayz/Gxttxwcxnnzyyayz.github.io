@@ -1,0 +1,83 @@
+body{
+    background-color: #fff;
+}
+.top{
+display: flex;
+justify-content: space-between;
+margin-top: 3%;
+align-items: center;
+
+}
+.search{
+width: 80%;
+background-color: #eee;
+border-radius: 2rem;
+margin-left: 2%;
+
+}
+.search input{
+border: none;
+background-color: #eee;
+margin-left: 5%;
+margin-bottom: 2%;
+
+
+}
+.quxiao{
+margin-right: 5%;
+text-align: center;
+}
+.quxiao a{
+color: #000;
+font-size: 14px;
+line-height: 2rem;
+
+}
+.re{
+display:flex;
+justify-content: space-between;
+
+}
+.re span{
+color: #999;
+font-size: 14px;
+}
+.re button{
+border: none;
+background-color: #fff;
+color: #999;
+font-size: 14px;
+}
+.re span:nth-child(1){
+margin-left: 3%;
+margin-top: 2%;
+}
+.re span:nth-child(2){
+margin-top: 2%;
+margin-right: 1%;
+}
+
+
+#box{
+margin-top: 2%;
+display: flex;
+justify-content: flex-start;
+align-items: baseline;
+flex-wrap: wrap;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+#box>li{
+width: 100%;
+margin-top: 10%;
+
+}
+#box a{
+background-color: #eee;
+border-radius: 10px;
+color: #000;
+font-size: 14px;
+padding: 5%;
+margin-left: 18%;
+text-align: center;
+}

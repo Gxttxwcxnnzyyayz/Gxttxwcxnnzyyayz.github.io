@@ -1,0 +1,44 @@
+#top{ 
+    display: flex;
+    background-color: #f93;
+    border:1px solid #f93;
+    border-radius:10px ;
+    margin-left: 4px;
+    margin-right: 4px;
+ 
+
+    
+ }
+.search{
+    border-radius: 10px;
+    background-color: #fff;
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+    padding: 3px 0 5px 0;
+}
+
+
+#search{
+    border: none;
+    outline: none/* 轮廓 */;
+    flex-grow: 2;
+    margin-right: 20%;
+    padding-left: 5%;
+}
+ .sousuo{
+   position: absolute;
+   border-radius: 10px;
+   background-color: #f93;
+   font-size: 14px;
+   border: 1px solid #f93;
+   right: 1%;
+   
+   text-align: center;
+   color: #fff;
+   width: 60px;
+  
+}
+.sousuo a{
+    color: #fff;
+}

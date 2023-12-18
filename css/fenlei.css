@@ -1,0 +1,124 @@
+body {
+    scroll-behavior: smooth;
+
+}
+img{
+    display: block;
+    border: none;
+}
+ul,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+#fixed {
+
+   width: 25%;
+    position: fixed;
+    left: 0;
+    top: 0;
+  
+
+    border-left: 1px solid #dbdee1;    
+    border-right: 1px solid #dbdee1;
+}
+
+#fixed li {
+
+    line-height: 37px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #eee;
+    color: #666
+}
+#fixed .cur {
+    /* border-top: 1px solid #dbdee1; */
+    border-bottom: 1px solid #dbdee1;
+    background-color: #fff;
+    margin-right: -1px;
+    width: 100%;
+    
+}
+#fixed .cur {
+    color: #c00;
+}
+#main {
+     margin-left: 26%;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20%;
+
+  /* 确保 #main 的顶部边距与 #fixed 的 top 相同或根据需要进行调整 */
+ margin-top: 15px;
+}
+/* 任意定义.box里内容的样子，此处为示例。 */
+.box{
+    margin-top: 0;
+
+}
+.box h2 {
+    font-size: 16px;
+    color: #000;
+    padding-left: 10px;   
+   margin-bottom: 4px;
+   line-height: 0;
+   margin-top: 3.2px;
+
+ 
+
+}
+.box ul {
+   background-color: #fff; /* 纯白色背景 */
+/* 或者根据需要调整高度 */        
+}
+
+
+/*    每行只显示三张图片，并且图片宽度自适应 */
+/* 确保图片容器内的图片和文字水平垂直居中 */
+.img-container {
+float: left; /* 使用浮动布局，或者可以选择flex/grid布局 */
+width: 33.3333%; /* 每行三个图片，所以宽度设置为总宽度的1/3 */
+box-sizing: border-box; /* 包括padding和border在内的总宽度 */
+padding: 10px; /* 根据需要调整内边距 */
+text-align: center; /* 文字居中 */
+}
+
+.img-container img {
+width: 100%; /* 图片宽度占满容器宽度 */
+height: auto; /* 高度自适应 */
+}
+
+.img-container p {
+margin-top: 5px; /* 图片和文字之间的间距 */
+font-size: 14px;
+}
+/* 清除浮动*/
+/* 清除浮动 */
+.box::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.bnav>ul li:nth-child(2) p>a{
+  color: #c00;
+}
+.bnav{
+bottom: -2%;
+}
+.bnav svg{
+margin-bottom: -15px;
+}

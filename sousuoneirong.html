@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/quanju.css">
+    <link rel="stylesheet" href="./css/sousuoneirong.css">
+
+   
+</head>
+<body>
+       <!-- 搜索框 -->
+    <header class="top">
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="奥特曼">
+        </div>
+        <span class="quxiao"><a href="./shouye.html">取消</a></span>
+    </header>
+        
+
+    <!-- 搜索内容 -->
+    <div class="re">
+        <span>热门搜索</span>
+        <span><button onclick="yincang()">隐藏</button>|<button onclick="huanyipi()">换一批</button></span>
+        
+    </div>
+     <ul id="box">
+      <li><a href="#">消炎药</a></li>
+      <li><a href="#">爷爷的农场</a></li>
+      <li><a href="#">李宁运动裤</a></li>
+      <li><a href="#">喇叭裤</a></li>
+      <li><a href="#">工具箱</a></li>
+      <li><a href="#">小米充电宝</a></li>
+      <li><a href="#">排风扇</a></li>
+      <li><a href="#">订书机</a></li>
+      <li><a href="#">节能灯泡</a></li>
+      <li><a href="#">晾衣架</a></li>
+      <li><a href="#">乐高玩具</a></li>
+      <li><a href="#">氛围灯</a></li>
+      <li><a href="#">水平仪</a></li>
+      <li><a href="#">小米电视</a></li>
+      <li><a href="#">欧莱雅水</a></li>
+      <li><a href="#">华为手机</a></li>
+     </ul>
+
+    <script>
+        var box = document.getElementById("box");
+        var btn = document.querySelector(".re button");
+        var originalText = btn.innerText;
+        var isHidden = false;
+
+        function yincang() {
+            if (isHidden) {
+                box.style.display = "grid";
+                btn.innerText = "隐藏";
+                isHidden = false;
+            } else {
+                box.style.display = "none";
+                btn.innerText = "显示";
+                isHidden = true;
+            }
+        }
+
+
+
+        var keywords = [
+            "保温瓶",
+            "泡打粉",
+            "北京同仁堂",
+            "集成灶",
+            "木瓜膏",
+            "草稿纸",
+            "二锅头",
+            "宝宝睡袋",
+            "银项链",
+            "牛皮纸",
+            "小金鱼",
+            "整理箱",
+            "坚果礼盒",
+            "握笔器",
+            "意大利面",
+            "小蒸锅"
+        ];
+
+        function huanyipi() {
+    var links = box.getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+        var randomIndex = Math.floor(Math.random() * keywords.length);
+        links[i].innerText = keywords[randomIndex];
+    }
+}
+
+    </script>
+</body>
+</html>

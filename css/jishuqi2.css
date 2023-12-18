@@ -1,0 +1,35 @@
+#jishuqi2{
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+  
+
+}
+#add2
+{
+    border: none;
+    background-color: #fff;
+    border-radius: 0 10px 10px 0;
+    font-size: 20px;
+
+}
+#num2{
+    border: none;
+    background-color: #fff;
+ 
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+#minus2{
+    border: none;
+    background-color: #fff;
+    border-radius: 10px 0 0 10px;
+    font-size: 20px;
+
+}
